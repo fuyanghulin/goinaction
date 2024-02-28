@@ -40,4 +40,5 @@ func Display(results chan *Result) {
 	for result := range results {
 		log.Printf("%s:\n%s\n\n", result.Field, result.Content)
 	}
+
 }
